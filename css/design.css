@@ -1,0 +1,88 @@
+*{
+     box-sizing: border-box;
+}
+
+.aa {
+
+     background-color: gainsboro;
+     text-align: center;
+     font-size: 30px;
+     margin: 5px;
+     padding: 30px;
+     color: grey;
+}
+
+body {
+     background-color: gray;
+     margin: 10px
+}
+
+.wrapper {
+     width: 1080px;
+     margin: 0 auto;
+}
+
+#content {
+     margin: 0 5px;
+}
+
+.aside {
+     display: block;
+     float: right;
+}
+
+.content__left, .content__right {
+     display: inline-block;
+     background-color: #ebebeb;
+     text-align: center;
+     padding: 10px;
+     height: 270px;
+     overflow: hidden;
+}
+
+.content__left {
+     width: 55%;
+}
+
+.content__right {
+     width: 44.5%;
+}
+
+.content__right p, .content__left p, .article .heading strong, .article .text p {
+     font-size: 21px;
+}
+
+.content__right p, .content__left p {
+     color: #777;
+}
+
+.article {
+     height: 75%;
+     background: #777;
+     padding: 8px 0px;
+     border-radius: 8px;
+}
+
+.article p {
+     color: #dddbdb;
+     font-size: 20px;
+}
+
+.article .heading, .article .text {
+     background: #ebebeb;
+     width: 90%;
+     height: 40px;
+     line-height: 40px;
+}
+
+.article .heading {
+     margin: 0 auto;
+}
+
+.article .text {
+     margin: 10px auto;
+}
+
+.article .text p {
+     color: #818181;
+}
